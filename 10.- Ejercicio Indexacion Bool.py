@@ -15,3 +15,11 @@ print('vBool: ', vBool)
 
 resultado = nombres[vBool]
 print('resultado: ', resultado)
+
+
+vBool2= (promedios >=58) & (promedios <60)
+print('vBool2: ', vBool2)
+
+# promedios[vBool2]=60
+promedios[vBool2]+=2
+print('promedios2: ', promedios)
